@@ -1,0 +1,25 @@
+{
+    "name": "noblox.js-server",
+    "version": "1.0.0",
+    "description": "An example server that uses the noblox.js module.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Hamzah-z/noblox.js-server"
+    },
+    "author": "H_mzah <https://www.roblox.com/users/14398127/profile>",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "1.19.0",
+        "express": "4.17.1",
+        "express-validator": "^6.3.1",
+        "noblox.js": "4.2.6"
+    },
+    "bugs": {
+        "url": "https://github.com/suufi/noblox.js-server/issues"
+    },
+    "homepage": "https://github.com/Hamzah-z/noblox.js-server"
+}
