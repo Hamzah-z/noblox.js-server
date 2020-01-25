@@ -51,7 +51,7 @@ end
 
 Server.Promote = function(GroupId, UserId)
 	assert(typeof(GroupId) == "number", "Error: GroupId must be an integer") -- Throw error if GroupId is not an integer
-	assert(typeof(UserId) == "number", "Error: GroupId must be an integer") -- Throw error if UserId is not an integer
+	assert(typeof(UserId) == "number", "Error: UserId must be an integer") -- Throw error if UserId is not an integer
 
 	local Body = {
 		Group = GroupId;
