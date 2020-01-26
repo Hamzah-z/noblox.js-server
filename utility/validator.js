@@ -24,10 +24,6 @@ function Promotions() { // Validator for Promotions
 		check('Target')
 			.custom((value, { req, loc, path }) => {
 				if (typeof req.body.Target === "number") { return value; } else { throw new Error(`Parameter 'Target' must be an integer, not type '${typeof (value)}'`) }
-			}),
-		check('Rank')
-			.custom((value, { req, loc, path }) => {
-				if (typeof req.body.Rank === "number") { return value; } else { throw new Error(`Parameter 'Rank' must be an integer, not type '${typeof (value)}'`) }
 			})
 	]
 }
@@ -41,6 +37,10 @@ function SetRank() { // Validator for SetRank
 		check('Target')
 			.custom((value, { req, loc, path }) => {
 				if (typeof req.body.Target === "number") { return value; } else { throw new Error(`Parameter 'Group' must be an integer, not type '${typeof (value)}'`) }
+			}),
+		check('Rank')
+			.custom((value, { req, loc, path }) => {
+				if (typeof req.body.Rank === "number") { return value; } else { throw new Error(`Parameter 'Rank' must be an integer, not type '${typeof (value)}'`) }
 			})
 	]
 }
