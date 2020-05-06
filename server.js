@@ -3,7 +3,6 @@
  *    https://github.com/suufi/noblox.js/tree/master
  * 
  * @author H_mzah
- *    https://devforum.roblox.com/u/h_mzah/summary
  *    https://github.com/Hamzah-z
  * 
  * Special thanks to sentanos/Froast for making roblox-js-server. This is heavily inspired from it.
