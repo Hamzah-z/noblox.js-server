@@ -104,7 +104,7 @@ app.use((err, req, res, next) => {
 });
 
 async function login() {
-    await roblox.cookieLogin(config.user_cookie); // thanks for ruining logins roblox
+    await roblox.setCookie(config.user_cookie); // thanks for ruining logins roblox
     return await roblox.getCurrentUser();
 }
 
